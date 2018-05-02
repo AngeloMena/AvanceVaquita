@@ -392,7 +392,9 @@ div.content-hero section span {
         margin:0 auto;
         width:auto;
         text-align:left;
-        padding:100px 0 0 0
+        padding:100px 0 0 0;
+        padding-left: 85px;
+        padding-top: 115px;
     }
     div.content-hero section h1 {
         font-size:58px;
@@ -432,7 +434,7 @@ div.content-grid-products h2 {
 }
 div.content-grid-products span {
     display:block;
-    margin-top:20px;
+    margin-top:2px;
     margin-bottom:60px;
     font-size:16px;
     line-height:24px;
@@ -451,7 +453,7 @@ div.content-grid-products span {
         line-height:32px
     }
     div.content-grid-products span br {
-        display:none
+        visibility: hidden;
     }
 }
 div.content-grid-products section {
@@ -557,7 +559,7 @@ div.content-grid-products section .products__text a img {
         font-size:13px;
         line-height:18px;
         letter-spacing:1px;
-        height:36px;
+        height:75px;
         display:block;
         opacity:1;
         margin-top:4px;
@@ -655,7 +657,8 @@ div.content-carousel section .slick-slide {
     background-position-y:100%;
     background-color:#fff;
     border:1px solid #e3e3e8;
-    border-radius:10px
+    border-radius:10px;
+    border-color: white
 }
 @media only screen and (min-width: 769px) {
     div.content-carousel section .slick-slide {
@@ -663,7 +666,8 @@ div.content-carousel section .slick-slide {
         background-repeat:no-repeat;
         background-position-x:100%;
         background-color:#fff;
-        border-radius:10px
+        border-radius:10px;
+        border-color: white
     }
 }
 div.content-carousel section .slick-list {
