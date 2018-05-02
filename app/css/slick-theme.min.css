@@ -47,10 +47,10 @@
     -moz-osx-font-smoothing:grayscale
 }
 .slick-prev:before {
-    content:url(../icons/arrow_circle.svg)
+    content:url(../icons/flecha1.jpg)
 }
 [dir="rtl"] .slick-prev:before {
-    content:url(../icons/arrow_circle.svg)
+    content:url(../icons/flecha2.jpg)
 }
 .slick-next, .slick-prev {
     right:-10.3448275862%;
@@ -62,9 +62,9 @@
     transform:translate(50%, 0) rotate(-180deg)
 }
 .slick-next:before {
-    content:url(../icons/arrow_circle.svg)
+    content:url(../icons/flecha1.jpg)
 }
 [dir="rtl"] .slick-next:before {
-    content:url(../icons/arrow_circle.svg)
+    content:url(../icons/flecha2.jpg)
 }
 /*# sourceMappingURL=slick-theme.min.css.map */

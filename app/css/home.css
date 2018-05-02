@@ -49,8 +49,9 @@ header .content-header__image {
     }
 }
 header .content-header__image img {
-    width:100%;
-    cursor:pointer
+    cursor:pointer;
+    width: 273px;
+    height: 165px;
 }
 header .content-header__text {
     padding:10px 0 0 0;
@@ -155,10 +156,10 @@ footer .content-footer__icons span {
     display:none
 }
 footer .content-footer__icons a:first-child img {
-    width:1rem
+    width:1.5rem
 }
 footer .content-footer__icons a:nth-child(2) img, footer .content-footer__icons a:nth-child(3) img {
-    width:1.8rem
+    width:1.5rem
 }
 @media only screen and (min-width: 769px) {
     footer .content-footer__icons {
@@ -172,13 +173,13 @@ footer .content-footer__icons a:nth-child(2) img, footer .content-footer__icons 
         margin-top:0
     }
     footer .content-footer__icons a:first-child img {
-        width:0.8rem
+        width:1.8rem
     }
     footer .content-footer__icons a:first-child img, footer .content-footer__icons a:nth-child(2) img {
         margin-right:18px
     }
     footer .content-footer__icons a:nth-child(2) img, footer .content-footer__icons a:nth-child(3) img {
-        width:1.5rem
+        width:1.8rem
     }
     footer .content-footer__icons span {
         font-family:"mirai-lightuploaded_file", Verdana;
@@ -353,7 +354,8 @@ div.content-hero {
     background-position:center;
     background-repeat:no-repeat;
     background-color:#f8f8fa;
-    height:500px
+    height:500px;
+    margin-top: 90px;
 }
 @media only screen and (min-width: 769px) {
     div.content-hero {
@@ -363,7 +365,8 @@ div.content-hero {
         background-position-x:center;
         background-repeat:no-repeat;
         background-color:#f8f8fa;
-        height:500px
+        height:500px;
+        margin-top: 90px;
     }
 }
 div.content-hero section {
@@ -651,22 +654,20 @@ div.content-carousel section .carousel-container .item div a {
 div.content-carousel section .slick-slide {
     text-align:center;
     background:white;
-    background-image:url(../img/bolsavq.jpg);
-    background-size:100%;
+    background-image:url(../img/peso1.jpg);
+    background-size:44%;
     background-repeat:no-repeat;
     background-position-y:100%;
     background-color:#fff;
     border:1px solid #e3e3e8;
-    border-radius:10px;
     border-color: white
 }
 @media only screen and (min-width: 769px) {
     div.content-carousel section .slick-slide {
-        background-size:50%;
+        background-size:44%;
         background-repeat:no-repeat;
         background-position-x:100%;
         background-color:#fff;
-        border-radius:10px;
         border-color: white
     }
 }
