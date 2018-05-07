@@ -28,7 +28,6 @@ header .content-header {
 }
 @media only screen and (min-width: 769px) {
     header .content-header {
-        height:110px;
         max-width:1271px;
         margin:0 auto;
         overflow:auto;
@@ -40,19 +39,11 @@ header .content-header {
 }
 header .content-header__image {
     padding:20px 0;
-    float:left;
-    width:30.7692307692%
-}
-@media only screen and (min-width: 769px) {
-    header .content-header__image {
-        width:10.3448275862%;
-        margin-left:3.4482758621%;
-        padding:30px 0
-    }
 }
 header .content-header__image img {
-    width:100%;
-    cursor:pointer
+    cursor:pointer;
+    width: auto;
+    height: 165px;
 }
 header .content-header__text {
     padding:10px 0 0 0;
@@ -61,7 +52,7 @@ header .content-header__text {
     width:40%;
     text-align:right;
     text-transform:uppercase;
-    color:#ff6d46
+    color:#ff469c
 }
 @media only screen and (min-width: 769px) {
     header .content-header__text {
@@ -83,7 +74,7 @@ header .content-header__text p img {
     width:1rem
 }
 footer {
-    background-color:#ff6d46;
+    background-color:#ff469c;
     min-height:260px;
     padding:40px 0 0 0;
     display:flex;
@@ -157,10 +148,10 @@ footer .content-footer__icons span {
     display:none
 }
 footer .content-footer__icons a:first-child img {
-    width:1rem
+    width:1.5rem
 }
 footer .content-footer__icons a:nth-child(2) img, footer .content-footer__icons a:nth-child(3) img {
-    width:1.8rem
+    width:1.5rem
 }
 @media only screen and (min-width: 769px) {
     footer .content-footer__icons {
@@ -174,13 +165,13 @@ footer .content-footer__icons a:nth-child(2) img, footer .content-footer__icons 
         margin-top:0
     }
     footer .content-footer__icons a:first-child img {
-        width:0.8rem
+        width:1.8rem
     }
     footer .content-footer__icons a:first-child img, footer .content-footer__icons a:nth-child(2) img {
         margin-right:18px
     }
     footer .content-footer__icons a:nth-child(2) img, footer .content-footer__icons a:nth-child(3) img {
-        width:1.5rem
+        width:1.8rem
     }
     footer .content-footer__icons span {
         font-family:"mirai-lightuploaded_file", Verdana;
@@ -335,9 +326,9 @@ footer .content-footer__copyright span {
     content:"e90f"
 }
 .lq-icon-user:before {
-    content:"e910"
 }
 .clearfix:after {
+    content:"e910"
     content:".";
     visibility:hidden;
     display:block;
@@ -350,26 +341,26 @@ footer .content-footer__copyright span {
     width:auto
 }
 div.content-hero {
-    background-image:url(../img/hero-mobile.jpg);
+    background-image:url(../img/productos.jpg);
     background-size:100%;
     background-position:center;
     background-repeat:no-repeat;
     background-color:#f8f8fa;
-    height:380px
+    height:500px;
 }
 @media only screen and (min-width: 769px) {
     div.content-hero {
-        background-image:url(../img/hero.jpg);
+        background-image:url(../img/productos.jpg);
         background-size:cover;
         background-position-y:center;
         background-position-x:center;
         background-repeat:no-repeat;
         background-color:#f8f8fa;
-        height:450px
+        height:500px;
     }
 }
 div.content-hero section {
-    margin:0 7.6923076923% !important;
+    margin:0 0.35484% !important;
     padding-top:60px;
     text-align:center
 }
@@ -378,9 +369,18 @@ div.content-hero section h1 {
     margin-bottom:0;
     font-weight:100;
     font-size:30px;
-    line-height:65px;
+    line-height:74px;
     font-family:"mirai-lightuploaded_file", Verdana;
-    color:#2a2a2e
+    color:white
+}
+div.content-hero section h2 {
+    margin-top:0;
+    margin-bottom:0;
+    font-weight:100;
+    font-size:30px;
+    line-height:74px;
+    font-family:"mirai-lightuploaded_file", Verdana;
+    color:white
 }
 div.content-hero section span {
     font-size:16px;
@@ -394,22 +394,35 @@ div.content-hero section span {
         margin:0 auto;
         width:auto;
         text-align:left;
-        padding:100px 0 0 0
+        padding:100px 0 0 0;
+        padding-left: 85px;
+        padding-top: 85px;
     }
     div.content-hero section h1 {
         font-size:58px;
-        line-height:65px;
+        line-height:74px;
         font-weight:100;
-        padding: 0 33.35484%;
-        font-family:"mirai-lightuploaded_file", Verdana;
-        margin-bottom:22px
+        padding: 0 0.35484%;
+        font-family:"mirai-lightuploaded_file", verdana;
+        margin-bottom:22px;
+        color: white
+    }
+        div.content-hero section h2 {
+        font-size:35px;
+        line-height:74px;
+        font-weight:100;
+        padding: 0 0.35484%;
+        font-family:"mirai-lightuploaded_file", verdana;
+        margin-bottom:22px;
+        color: white
     }
     div.content-hero section span {
         font-size:20px;
         line-height:32px;
-        padding: 0 33.35484%;
+        padding: 0 0.35484%;
         display:block;
-        width:35.4838709677%
+        width:35.4838709677%;
+        color: white
     }
     div.content-hero section span br {
         display:none
@@ -426,13 +439,13 @@ div.content-grid-products h2 {
     line-height:30px;
     margin-top:0;
     margin-bottom:0;
-    font-weight:100;
+    font-weight:bold;
     font-family:"mirai-lightuploaded_file", Verdana;
     color:#2a2a2e
 }
 div.content-grid-products span {
     display:block;
-    margin-top:20px;
+    margin-top:2px;
     margin-bottom:60px;
     font-size:16px;
     line-height:24px;
@@ -444,14 +457,15 @@ div.content-grid-products span {
         font-size:42px;
         line-height:48px;
         margin-bottom:0;
-        font-weight:100
+        font-weight:bold;
+        padding-bottom: 40px;
     }
     div.content-grid-products span {
         font-size:20px;
         line-height:32px
     }
     div.content-grid-products span br {
-        display:none
+        visibility: hidden;
     }
 }
 div.content-grid-products section {
@@ -557,7 +571,7 @@ div.content-grid-products section .products__text a img {
         font-size:13px;
         line-height:18px;
         letter-spacing:1px;
-        height:36px;
+        height:75px;
         display:block;
         opacity:1;
         margin-top:4px;
@@ -596,7 +610,7 @@ div.content-carousel section {
 div.content-carousel section h2 {
     font-size:24px;
     line-height:30px;
-    font-weight:100;
+    font-weight:bold;
     margin-top:0;
     margin-bottom:34px;
     font-family:"mirai-lightuploaded_file", Verdana;
@@ -641,7 +655,7 @@ div.content-carousel section .carousel-container .item div a {
     line-height:normal;
     letter-spacing:1px;
     text-decoration:none;
-    background-color:#ff6d46;
+    background-color:#ff469c;
     color:#fff;
     margin:15px 15.3846153846% 150px;
     border-radius:100px
@@ -649,21 +663,21 @@ div.content-carousel section .carousel-container .item div a {
 div.content-carousel section .slick-slide {
     text-align:center;
     background:white;
-    background-image:url(../img/fondo_carousel_mobile.png);
-    background-size:100%;
+    background-image:url(../img/peso1.jpg);
+    background-size:44%;
     background-repeat:no-repeat;
     background-position-y:100%;
     background-color:#fff;
     border:1px solid #e3e3e8;
-    border-radius:10px
+    border-color: white
 }
 @media only screen and (min-width: 769px) {
     div.content-carousel section .slick-slide {
-        background-size:50%;
+        background-size:44%;
         background-repeat:no-repeat;
         background-position-x:100%;
         background-color:#fff;
-        border-radius:10px
+        border-color: white
     }
 }
 div.content-carousel section .slick-list {
@@ -695,7 +709,7 @@ div.content-carousel section .slide-count-wrap {
     letter-spacing:1px
 }
 div.content-carousel section .slide-count-wrap .current {
-    color:#ff6d46
+    color:#ff469c
 }
 div.content-carousel section .slide-count-wrap .divisor, div.content-carousel section .slide-count-wrap .total {
     color:#a2a2b2
@@ -750,7 +764,7 @@ div.content-carousel section .slide-count-wrap .divisor, div.content-carousel se
         width:17.2413793103%;
         text-align:center;
         text-decoration:none;
-        background-color:#ff6d46;
+        background-color:#ff469c;
         color:#fff;
         margin-left:3.4482758621%;
         border-radius:100px;
@@ -768,7 +782,7 @@ div.content-carousel section .slide-count-wrap .divisor, div.content-carousel se
         right:9.2%
     }
     div.content-carousel section .slide-count-wrap .current {
-        color:#ff6d46
+        color:#ff469c
     }
     div.content-carousel section .slide-count-wrap .divisor, div.content-carousel section .slide-count-wrap .total {
         color:#a2a2b2

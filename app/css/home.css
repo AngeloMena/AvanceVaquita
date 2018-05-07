@@ -28,29 +28,21 @@ header .content-header {
 }
 @media only screen and (min-width: 769px) {
     header .content-header {
-        height:110px;
         max-width:1271px;
         margin:0 auto;
         overflow:auto;
         width:100%;
-        overflow:unset
+        overflow:unset;
+        display: flex;
+        justify-content: space-between;
     }
 }
 header .content-header__image {
     padding:20px 0;
-    float:left;
-    width:30.7692307692%
-}
-@media only screen and (min-width: 769px) {
-    header .content-header__image {
-        width:10.3448275862%;
-        margin-left:3.4482758621%;
-        padding:30px 0
-    }
 }
 header .content-header__image img {
     cursor:pointer;
-    width: 273px;
+    width: auto;
     height: 165px;
 }
 header .content-header__text {
@@ -334,9 +326,9 @@ footer .content-footer__copyright span {
     content:"e90f"
 }
 .lq-icon-user:before {
-    content:"e910"
 }
 .clearfix:after {
+    content:"e910"
     content:".";
     visibility:hidden;
     display:block;
@@ -355,7 +347,6 @@ div.content-hero {
     background-repeat:no-repeat;
     background-color:#f8f8fa;
     height:500px;
-    margin-top: 90px;
 }
 @media only screen and (min-width: 769px) {
     div.content-hero {
@@ -366,7 +357,6 @@ div.content-hero {
         background-repeat:no-repeat;
         background-color:#f8f8fa;
         height:500px;
-        margin-top: 90px;
     }
 }
 div.content-hero section {
