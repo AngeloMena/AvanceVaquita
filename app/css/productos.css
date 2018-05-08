@@ -500,7 +500,7 @@ div.content-grid-products section .products__text h3 {
     line-height:24px;
     color:#2a2a2e;
     margin-bottom:0;
-    margin-top:0
+    margin-top:15px;
 }
 div.content-grid-products section .products__text span {
     opacity:0;
@@ -564,7 +564,7 @@ div.content-grid-products section .products__text a img {
         font-size:20px;
         color:#2a2a2e;
         margin-bottom:0;
-        margin-top:0
+        margin-top:15px;
     }
     div.content-grid-products section .products__text span {
         font-family:"mirai-regularuploaded_file", Verdana;
