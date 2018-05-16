@@ -341,7 +341,7 @@ footer .content-footer__copyright span {
     width:auto
 }
 div.content-hero {
-    background-image:url(../img/productos.jpg);
+    background-image:url(../img/testimonios.jpg);
     background-size:100%;
     background-position:center;
     background-repeat:no-repeat;
@@ -351,7 +351,7 @@ div.content-hero {
 }
 @media only screen and (min-width: 769px) {
     div.content-hero {
-        background-image:url(../img/productos.jpg);
+        background-image:url(../img/testimonios.jpg);
         background-size:cover;
         background-position-y:center;
         background-position-x:center;
