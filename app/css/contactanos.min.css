@@ -1,6 +1,6 @@
 body .containerv {
 
-     max-width: 1271px;
+    max-width: 1271px;
     width: auto;
     margin: 0 17%;
     margin-left: 12px;
@@ -535,7 +535,7 @@ div.content-article1 section img {
     div.content-article section {
         max-width:1271px;
         width:auto;
-        margin:0 17%
+        margin:0 0;
     }
     div.content-article section p {
         color:#2a2a2e;

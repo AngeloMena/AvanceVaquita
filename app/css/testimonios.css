@@ -17,6 +17,21 @@ header {
         overflow:unset
     }
 }
+.opac {
+    position: relative;
+    left: 0;
+    background-color: #0000009c;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    -webkit-transition: all 0.65s ease;
+    -moz-transition: all 0.65s ease;
+    -ms-transition: all 0.65s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+    z-index: 9999;
+    margin: 0px !important;
+}
 header .content-header {
     max-width:1271px;
     margin:0 auto;
@@ -361,7 +376,7 @@ div.content-hero {
     }
 }
 div.content-hero section {
-    margin:0 0.35484% !important;
+    margin:0 0 !important;
     padding-top:60px;
     text-align:center
 }
