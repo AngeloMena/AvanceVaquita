@@ -1,0 +1,21 @@
+.tit {
+	text-decoration: underline;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.bord-bajo {
+	border-bottom: 4px solid #ff469c;
+}
+.tam_img {
+	width: 66%;
+    height: 82%;
+}
+.bot-on {
+	color: #fff;
+	background-color: #ff469c;
+    border-color: #ff469c;
+
+}
+.marg-co {
+	margin-left: 100px !important;
+}
