@@ -17,6 +17,10 @@ header {
         overflow:unset
     }
 }
+.center-nav {
+    margin-top: 100px;
+    font-size: 15px;
+}
 .opac {
     position: relative;
     left: 0;
